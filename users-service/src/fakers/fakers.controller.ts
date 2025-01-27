@@ -1,7 +1,7 @@
 import { Controller, Get, Param, ParseIntPipe } from '@nestjs/common';
 import { FakersService } from './fakers.service';
 
-@Controller('users/fakers')
+@Controller('users/faker')
 export class FakersController {
   constructor(private readonly fakersService: FakersService) { }
 
